@@ -15,6 +15,9 @@
 		678108DB26E804450067383A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678108D926E804450067383A /* LaunchScreen.storyboard */; };
 		678108E626E804450067383A /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678108E526E804450067383A /* StopwatchTests.swift */; };
 		678108F126E804460067383A /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678108F026E804460067383A /* StopwatchUITests.swift */; };
+		678108FF26E817E10067383A /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678108FE26E817E10067383A /* Stopwatch.swift */; };
+		67D0ED1026EA5A0600409FA4 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67D0ED0F26EA5A0600409FA4 /* background.jpg */; };
+		67D0ED1226EA5B1800409FA4 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 67D0ED1126EA5B1700409FA4 /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		678108EC26E804460067383A /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		678108F026E804460067383A /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		678108F226E804460067383A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678108FE26E817E10067383A /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		67D0ED0F26EA5A0600409FA4 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../../background.jpg; sourceTree = "<group>"; };
+		67D0ED1126EA5B1700409FA4 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../../../Downloads/AppIcon.appiconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		678108C226E804400067383A = {
 			isa = PBXGroup;
 			children = (
+				67D0ED0F26EA5A0600409FA4 /* background.jpg */,
+				67D0ED1126EA5B1700409FA4 /* AppIcon.appiconset */,
 				678108CD26E804400067383A /* Stopwatch */,
 				678108E426E804450067383A /* StopwatchTests */,
 				678108EF26E804460067383A /* StopwatchUITests */,
@@ -106,6 +114,7 @@
 				678108D726E804450067383A /* Assets.xcassets */,
 				678108D926E804450067383A /* LaunchScreen.storyboard */,
 				678108DC26E804450067383A /* Info.plist */,
+				678108FE26E817E10067383A /* Stopwatch.swift */,
 			);
 			path = Stopwatch;
 			sourceTree = "<group>";
@@ -233,7 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				678108DB26E804450067383A /* LaunchScreen.storyboard in Resources */,
+				67D0ED1026EA5A0600409FA4 /* background.jpg in Resources */,
 				678108D826E804450067383A /* Assets.xcassets in Resources */,
+				67D0ED1226EA5B1800409FA4 /* AppIcon.appiconset in Resources */,
 				678108D626E804410067383A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +273,7 @@
 				678108D326E804400067383A /* ViewController.swift in Sources */,
 				678108CF26E804400067383A /* AppDelegate.swift in Sources */,
 				678108D126E804400067383A /* SceneDelegate.swift in Sources */,
+				678108FF26E817E10067383A /* Stopwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
